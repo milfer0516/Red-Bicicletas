@@ -10339,7 +10339,7 @@ a.text-primary:focus {
 
 a.text-secondary:hover,
 a.text-secondary:focus {
-    color: #494f54 !important;
+    color: #131414 !important;
 }
 
 .text-success {
@@ -10418,7 +10418,7 @@ a.text-black:focus {
 }
 
 .text-white-50 {
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: var(--dark) !important;
 }
 
 .text-hide {
@@ -10591,10 +10591,10 @@ body {
     #mainNav .nav-link {
         transition: none;
         padding: 2rem 1.5rem;
-        color: rgba(255, 255, 255, 0.5);
+        color: var(--white);
     }
     #mainNav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.75);
+        color: var(--gray-dark);
     }
     #mainNav .nav-link:active {
         color: #fff;
@@ -10660,13 +10660,7 @@ body {
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
-    background: linear-gradient(
-        rgba(255, 255, 255, 0.9),
-        rgba(255, 255, 255, 0)
-    );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: var(--gray-dark);
 }
 .masthead h2 {
     max-width: 20rem;
@@ -10676,6 +10670,7 @@ body {
     .masthead h1 {
         font-size: 4rem;
         line-height: 4rem;
+        color: var(--gray-dark);
     }
 }
 @media (min-width: 992px) {

@@ -1,2 +1,3 @@
 Codigo para renderizar el servidor es : 
 DEBUG=red-bicicletas:* npm start
+ /* "start": "node ./bin/www" */

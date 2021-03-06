@@ -4,7 +4,18 @@ a {
 body {
     background-color: black;
 }
+img {
+    max-width: 100%;
+}
 
 #mapid {
     height: 500px;
+}
+.masthead {
+    background-image: url(../img/bg-masthead.jpg);
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+    color: cornsilk;
 }
