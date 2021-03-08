@@ -2,7 +2,7 @@ a {
     color: #00b7ff;
 }
 body {
-    background-color: black;
+    box-sizing: border-box;
 }
 img {
     max-width: 100%;
