@@ -32,13 +32,14 @@ Bicicleta.removeById = function (aBiciId) {
             break;
         }
     }
-    console.log(Bicicleta.allBicis[i]);
 };
 
 const bici1 = new Bicicleta("1", "Rojo", "Urbana", [4.633159, -74.194198]);
 const bici2 = new Bicicleta("2", "Verde", "Urbana", [4.62643, -74.20817]);
+const bici3 = new Bicicleta("3", "Verde", "Urbana", [4.632391, -74.199419]);
 
 Bicicleta.add(bici1);
 Bicicleta.add(bici2);
+Bicicleta.add(bici3);
 
 module.exports = Bicicleta;
